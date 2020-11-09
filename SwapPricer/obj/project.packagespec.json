@@ -1,0 +1,68 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/lucarosales/RiderProjects/SwapPricer/SwapPricer/SwapPricer.csproj",
+    "projectName": "SwapPricer",
+    "projectPath": "/Users/lucarosales/RiderProjects/SwapPricer/SwapPricer/SwapPricer.csproj",
+    "outputPath": "/Users/lucarosales/RiderProjects/SwapPricer/SwapPricer/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "IronPython": {
+          "target": "Package",
+          "version": "[2.7.11-candidate1, )"
+        },
+        "Python.Runtime.NETStandard": {
+          "target": "Package",
+          "version": "[3.7.1, )"
+        },
+        "System.Drawing.Common": {
+          "target": "Package",
+          "version": "[5.0.0-rc.2.20475.5, )"
+        },
+        "System.Windows.Forms.DataVisualization": {
+          "target": "Package",
+          "version": "[1.0.0-prerelease.20110.1, )"
+        },
+        "Xamarin.Forms": {
+          "target": "Package",
+          "version": "[5.0.0.1558-pre3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+    }
+  }
+}
